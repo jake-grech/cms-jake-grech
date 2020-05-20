@@ -93,7 +93,7 @@ a:hover { color: #1f213a; }
 /*-------------------------------------------------------------------------*/
 :root { font-size: 18px; }
 
-body, button, input, select, textarea { font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight: 300; line-height: 1.8; font-size: 1rem; -ms-word-wrap: break-word; word-wrap: break-word; overflow-wrap: break-word; }
+body, button, input, select, textarea { font-family: 'Roboto', Helvetica, Arial, sans-serif; font-weight: 300; line-height: 1.3; font-size: 1rem; -ms-word-wrap: break-word; word-wrap: break-word; overflow-wrap: break-word; }
 
 strong { font-weight: 600; }
 
@@ -294,7 +294,7 @@ h2.widget-title { font-size: 1.5rem; margin-bottom: 1.125em; }
 
 .header--wrap-full-width .menu-wrapper .container { max-width: 100%; }
 
-.header--bg-white .menu-wrapper { background-color: darkgrey; }
+.header--bg-white .menu-wrapper { background-color: white; }
 
 .header--bg-transparent .menu-wrapper { position: absolute; top: 0; left: 0; }
 
@@ -312,7 +312,7 @@ h2.widget-title { font-size: 1.5rem; margin-bottom: 1.125em; }
 
 .menu-wrapper .nav-menu > li:last-child { margin-right: 0px; }
 
-.menu-wrapper .nav-menu a { font-size: 16px; font-weight: 400; text-transform: capitalize; transition: color 0.4s, opacity 0.4s; position: relative; display: block; }
+.menu-wrapper .nav-menu a { font-size: 18px; font-weight: 400; text-transform: capitalize; transition: color 0.4s, opacity 0.4s; position: relative; display: block; }
 
 .menu-wrapper .nav-menu a:after { content: ''; position: absolute; width: 0; height: 3px; bottom: -5px; right: 0; transition: all 0.4s; }
 
@@ -370,7 +370,7 @@ h2.widget-title { font-size: 1.5rem; margin-bottom: 1.125em; }
 
 .menu-wrapper .site-logo .logo .logo-light { opacity: 0; display: none; }
 
-.menu-wrapper .site-logo .logo-text { font-family: 'Poppins', Helvetica, Arial, sans-serif; font-weight: 500; font-size: 24px; }
+.menu-wrapper .site-logo .logo-text { font-family: 'Poppins', Helvetica, Arial, sans-serif; font-weight: 600; font-size: 30px; }
 
 .menu-wrapper .site-logo .logo-minitext { font-size: 14px; display: block; }
 
@@ -770,7 +770,7 @@ body.jsnav-open .body-jsnav-overlay { background-color: rgba(0, 0, 0, 0.7); visi
 
 .row { margin-left: -1.25em; margin-right: -1.25em; }
 
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { padding-left: 1.25em; padding-right: 1.25em; }
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto { padding-left: 2.25em; padding-right: 2.25em; }
 
 .kt-preloader-on main#site-wrap { opacity: 0; }
 
@@ -786,7 +786,7 @@ body.jsnav-open .body-jsnav-overlay { background-color: rgba(0, 0, 0, 0.7); visi
 
 .error404 #content { padding-bottom: 0; }
 
-.single.has-page-banner:not(.layout-sb-left):not(.layout-sb-right) #content, .error404.has-page-banner #content, .page.has-page-banner #content, .page-template-page-home #content { padding-top: 0; }
+.single.has-page-banner:not(.layout-sb-left):not(.layout-sb-right) #content, .error404.has-page-banner #content, .page.has-page-banner #content, .page-template-page-home #content { padding-top: 1; }
 
 .single.has-page-banner:not(.layout-sb-left):not(.layout-sb-right) #content > .entry-content > article > *:first-child, .error404.has-page-banner #content > .entry-content > article > *:first-child, .page.has-page-banner #content > .entry-content > article > *:first-child, .page-template-page-home #content > .entry-content > article > *:first-child { margin-top: 0; }
 
@@ -1021,7 +1021,7 @@ p:empty { display: none; }
 
 .k-content-inner.mx-auto.apply-mw, .layout-no-sidebar .entry-content .post > *, .layout-no-sidebar .entry-content .page > *, .layout-no-sidebar .entry-content .attachment > *, .comment-respond, .comment-list, .comments-pagination { max-width: 800px; }
 
-.layout-no-sidebar .entry-content p:only-child { margin-bottom: 0; }
+.layout-no-sidebar .entry-content p:only-child { margin-bottom: 1; }
 
 .layout-no-sidebar .entry-content .alignwide { max-width: 100% !important; }
 
@@ -1110,7 +1110,7 @@ ul.attachment-meta-list > * { flex: 0 0 50%; }
 
 .site-footer { transition: all .5s; width: 100%; position: relative; background-color: #f2f2f2; }
 
-.site-footer .inner { font-size: 0.9375rem; position: relative; z-index: 1; padding-bottom: 3em; padding-top: 3em; }
+.site-footer .inner { font-size: 0.9375rem; position: relative; z-index: 1; padding-bottom: 1em; padding-top: 1em; }
 
 .site-footer .inner.maxpad { padding-bottom: 0em; padding-top: 0em; }
 
@@ -1136,7 +1136,7 @@ ul.attachment-meta-list > * { flex: 0 0 50%; }
 
 .site-footer .footer--bg-image { transition: opacity .4s; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-repeat: no-repeat; background-size: cover; background-position: center center; }
 
-.site-footer .final-row { font-size: 0.875rem; }
+.site-footer .final-row { font-size: 1rem; }
 
 .fixed_footer .site-inner { z-index: 1; }
 
@@ -1642,3 +1642,25 @@ a:hover { text-decoration: none; }
 ul { list-style: none; padding: 0; margin: 0; }
 
 a.covering-link, .overlay { position: absolute; display: block; width: 100%; height: 100%; top: 0; left: 0; z-index: 2; }
+
+
+/*
+stylesheet for use with responsive video shortcode plugin.
+Provides the CSS that makes the video responsive.
+*/
+ 
+.wptuts-video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.wptuts-video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
